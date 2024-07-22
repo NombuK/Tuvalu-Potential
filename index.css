@@ -1,0 +1,275 @@
+
+body{
+    margin: 0px;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+}
+#top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Cartoon',sans-serif;
+    font-size: larger;
+    height: 400px;
+    background: url("Images/face2.webp");
+    background-size: cover;
+    
+}
+
+@font-face {
+    font-family: 'Cartoon';
+    src: url('fonts/SFCartoonistHand-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Wonderland';
+    src: url('fonts/Beyond Wonderland.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monas';
+    src: url("fonts/Monas.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Matgefo';
+    src: url("fonts/MatgefoVintage-DemoVersion-Regular.ttf") format('truetype');
+}
+
+#title{
+    font-family: 'Matgefo',sans-serif;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#description{
+    margin-top: 0px;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: medium;   
+}
+
+#background{
+    background: url("Images/shell.jpg");
+    background-size: cover;
+}
+
+#buttns{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.qn{
+    display: block;
+    justify-content: space-around;
+    border-radius: 100px;
+    color: #f9f9f9;
+    background: #48cae4;
+    padding: 30px 30px;
+}
+
+a{
+    color: #48cae4;
+    font-weight: 900;
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    border-radius: 1px;
+    border: 3px solid #48cae4;
+    background: #f9f9f9;
+    font-weight: 800;
+    padding: 20px 20px;
+    
+}
+
+#guide{
+    background: url("Images/bubbles.webp");
+    margin: 20px auto 10px auto;
+    padding-left: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    border: 6px dotted #48cae4;
+}
+
+#img{
+    width: 200px;
+    
+}
+
+#tourist-text{
+    font-size: medium;
+    margin: 50px 10px 30px 30px;
+}
+
+.link{
+    margin-left: 4px;
+    font-style: italic;
+    color: blue;
+}
+
+.link-potential{
+    margin-left: 4px;
+    font-style: italic;
+    color: blue;
+}
+
+.msg{
+    display: block;
+    width: 500px;
+    margin: 0 auto 30px auto;
+    background: #48cae4;
+    font-size: xx-large;
+}
+
+.img1, .img2{
+    margin: 10px auto;
+    width: 400px;
+    height: 450px;
+    background: url("Images/halfMoon.jpg");
+    background-size: 100%;
+    border-radius: 20px;
+}
+
+.img1:hover{
+    background: url("Images/diduknow.webp");
+    background-size: 100%;
+    width: 400px;
+    height: 400px;
+}
+
+.img2:hover{
+    background: url("Images/imagine.webp");
+    background-size: cover;
+    width: 400px;
+    height: 450px;
+}
+
+.img3, .img4{
+    margin: 10px auto;
+    width: 600px;
+    height: 450px;
+    background: url("Images/bulb.jpg");
+    background-size: cover;
+    text-align: center;
+    border: 7px dotted #0077b6;
+    border-radius: 20px;
+}
+
+.img3:hover{
+    background: url("/images/rockrtS.webp");
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+}
+
+.img4:hover{
+    width: 400px;
+    height: 450px;
+    background: url("Images/letsdothis.webp");
+    background-size: cover;
+   
+}
+
+#pics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.back{
+    background: url("Images/clearocean.webp");
+    background-size: cover;
+    margin: 30px;
+}
+
+.back-potential{
+    background: url("Images/tch1.jpg");
+    background-size: cover;
+    margin: 30px;
+}
+#thee{
+    text-align: center;
+    text-shadow: 5px 5px 10px;
+    color: #18dddd;
+    border-bottom: 2px solid #18dddd;
+}
+.bttun{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+u{
+    color: #0077b6;
+    font-weight: 700;
+}
+
+.u1{
+   font-family: 'Monas',sans-serif;
+   font-size: larger;
+   text-align: center;
+   color: #023e8a;
+   font-weight: 800; 
+}
+
+.deco{
+    border-radius: 40px;
+    border: 7px dotted #023e8a;
+    width: 400px;
+    height: 200px;
+    background:url("Images/shells.jpg") ;
+    margin-bottom: 50px;
+    padding: 40px;
+   
+}
+
+.deco-potential{
+    border-radius: 40px;
+    border: 7px dotted #12d4ee;
+    width: 400px;
+    height: 250px;
+    background:url("Images/cloud.webp") ;
+    margin-bottom: 50px;
+    padding: 40px;
+   
+}
+
+.deco-text{
+    font-family: "Cartoon", sans-serif;
+    font-size: large;
+    font-weight: 700;   
+}
+
+.main-deco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.done{
+    display: block;
+    margin:10px auto;
+}
+.finally{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#finally-potential{
+    background-color: aqua;
+    background-size: cover;
+    display: block;
+    width: 500px;
+    margin: 0 auto 30px auto;
+}
